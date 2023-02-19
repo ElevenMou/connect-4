@@ -112,14 +112,14 @@ const GameBoard = () => {
                 <div className='game-idle'>
                     <div className="form-group">
                         <label for="player1_name">Player 1</label>
-                        <input type="text" className="form-control" name="player1_name" id='player1_name' onChange={handleFirstPlayerName}/>
+                        <input type="text" className="form-control" name="player1_name" id='player1_name' placeholder="player 1 name" onChange={handleFirstPlayerName}/>
                         <label for="player1_color" className='hide'>Color 1</label>
                         <input type="color" className="color" name="player1_name" id='player1_name' value={player1[2]} onChange={handleFirstPlayerColor}/>
                     </div>
 
                     <div className="form-group">
                         <label for="player2_name">Player 2</label>
-                        <input type="text" className="form-control" name="player2_name" id='player2_name' onChange={handleSecondPlayerName}/>
+                        <input type="text" className="form-control" name="player2_name" id='player2_name' placeholder="player 2 name" onChange={handleSecondPlayerName}/>
                         <label for="player2_color" className='hide'>Color 2</label>
                         <input type="color" className="color" name="player2_name" id='player2_name' value={player2[2]} onChange={handleSecondPlayerColor}/>
                     </div>
