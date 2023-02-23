@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-To test it https://frabjous-caramel-da303b.netlify.app/
+To test it https://mou-connect-4.netlify.app/
 
 ## Available Scripts
 
